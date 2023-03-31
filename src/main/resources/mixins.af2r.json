@@ -1,0 +1,21 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "mixinPriority": 1000,
+  "package": "com128.kzf.m.af2r.mixin",
+  "client": [
+    "MixinConnectScreen",
+    "MixinItemRenderer",
+    "MixinItems",
+    "ServerEntryMixin"
+  ],
+  "refmap": "af2r-refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinItem",
+    "MixinMinecraftServer",
+    "MixinServerHandshakeNetworkHandler",
+    "ServerInfoMixin"
+  ]
+}
