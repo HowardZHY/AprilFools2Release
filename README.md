@@ -1,15 +1,10 @@
-# Fabric Example Mod
+# AF2R
 
-## Setup
+## About
 
-1. Edit gradle.properties, build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+A Legacy Fabric mod makes 15w14a able to join 1.8.X servers.
 
-```
-./gradlew
-```
+Uses Mixins to change protocol and re-added carrot on a stick dummy item to prevent crash.
 
 ## License
 
