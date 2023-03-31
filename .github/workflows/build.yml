@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         java: [
-            "17" # Latest version
+            "8" # Latest version
           ]
     runs-on: ubuntu-latest
     steps:
@@ -26,3 +26,9 @@ jobs:
         run: chmod +x ./gradlew
       - name: Build with Gradle
         run: ./gradlew build
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          # Artifact name
+          name: build
+          path: build/libs/*.jar
