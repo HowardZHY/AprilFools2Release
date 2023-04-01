@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "af2r",
+  "version": "15w14a",
+  "name": "af2r",
+  "description": "Try to make 15w14a AF compact with 1.8",
+  "authors": ["HowardZHY"],
+  "license": "CC0",
+  "mixins": [
+    "mixins.af2r.json"
+  ],
+  "accessWidener": "af2r.accesswidener"
+}
